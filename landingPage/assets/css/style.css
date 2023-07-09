@@ -1,0 +1,350 @@
+/* Add your custom styles here */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+  }
+  
+  header {
+    background-color: #133836;
+    color: #ff5757;
+  }
+  
+  .logo {
+    font-size: 1.4em;
+    padding-left: 20px;
+    color:#ff5757;
+
+  }
+  
+  .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 20px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #ff5757;
+    margin-left: 10px;
+    font-size: 1.2em;
+    
+  }
+  .navbar li a:hover{
+    
+      color: rgb(23, 224, 231);
+      text-decoration: underline;
+    }
+
+    .home {
+      position: relative;
+    }
+  .button:hover{
+        background-color: #a124fb;
+    }
+    .main-content {
+      position: absolute;
+      top: 63%;
+      left: 48.5%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      text-align: center;
+    }
+    
+    .bg {
+      position: relative;
+    }
+    
+    .bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .main-content h2{
+      text-align: center;
+      font-size: 2em;
+      color: #ff4e4e;
+    }
+    
+    .main-content p{
+      line-height: 1.5;
+      text-align: center;
+      font-size: 1.3em;
+    }
+    
+  .section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #182568;
+    color: #fff;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  /* info */
+  section h2{
+    text-align: center;
+    font-size: 2em;
+    text-decoration:3px underline #2e5770;
+  }
+  .info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+
+  }
+  .info .info-card {
+    margin: 0 1%;
+    text-align: left;
+    padding: 2% 1%;
+    border-radius: 10px;
+  }
+  .info .info-card i{
+    margin-right: 2.5%;
+    font-size: 2.2em;
+  }
+  .info .info-card span{
+    font-size: 1.1em;    
+  }
+  .info .info-card:nth-child(1){
+    background-color: #cea27b;
+  }
+  .info .info-card:nth-child(2){
+    background-color: #da85d3;
+  }
+  .info .info-card:nth-child(3){
+    background-color: #769ebc;
+  }
+  .info .info-card:nth-child(4){
+    background-color: #7eccd3;
+  }
+
+
+  .web{
+    margin: 3% 0;
+    
+  }
+  .web-intro{
+    padding: 0px;
+    margin: 0px;
+  }
+  .web-intro h3{
+    text-align: center;
+  }
+  .web-intro p{
+    text-align: center;
+  }
+  .web-contents{
+    padding: 0px;
+    margin: 0 6%;
+    color: #a124fb;
+  }
+  .web-contents h3{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 15px;
+
+  }
+  .web-contents p{
+    color: #000000;
+    margin: 0;
+    padding: 0%;
+  }
+  .web-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 2%;
+    text-align: left;
+    padding: 1% 1%;
+    border-radius: 10px;
+  }
+  
+  .web-cards .card {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  .web-cards .card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .web-cards .card figcaption {
+    font-weight: bold;
+    font-size: 1.2em;
+    
+  }
+  
+  .web-cards .card p {
+    color: black;
+    text-align: left;
+    word-wrap: normal;
+    font-size: 1em;
+  }
+  /* .web .button button{
+    background-color: #7eccd3;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.1em;
+    font-weight: 1em;
+    
+    } */
+    section button:hover{
+      transform: scale(1.2);
+      background-color: #d423ab;
+    }
+  
+
+  /* footer */
+  footer {
+    background-color: #133836;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .about {
+    flex-basis: 34%;
+    margin-bottom: 20px;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff5757;
+    text-align: start;
+  }
+  
+  .about p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 84%;
+
+  }
+  
+  .leftbox {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+
+  }
+  
+  .leftbox .logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff5757;
+    text-align: center;
+
+  }
+  
+  .leftbox a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info {
+    flex-basis: 20%;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+    
+  }
+  
+  .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff5757;
+    margin: 17px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info ul li i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .contact-info ul li span {
+    font-size: 16px;
+  }
+  .social-icons {
+    margin: 5% 4% 0 18%;
+  }
+  
+  .social-icons a{
+    display: inline-block;
+    margin:3% 3%;
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s;
+
+  }
+  .social-icons a i{
+    color:#d7c9c9;
+    font-size: 1.6em;
+  }
+  
+  .social-icons a i:hover {
+    transform: scale(1.4);
+  }
+  
+  .social-icons a[href*="instagram"] i:hover {
+    color: #f736f7; /* insta - Blue */
+  }
+  .social-icons a[href*="facebook"] i:hover {
+    color: #2b62d7; /* Facebook - Blue */
+  }
+  
+  .social-icons a[href*="twitter"] i:hover  {
+    color: #1da1f2; /* Twitter - Blue */
+  }
+  
+  .social-icons a[href*="github"] i:hover  {
+    color: #ffdb27; /* GitHub - Default Color */
+  }
