@@ -1,0 +1,140 @@
+:root {
+  --charcoal: #264653ff;
+  --persian-green: #2a9d8fff;
+  --saffron: #e9c46aff;
+  --sandy-brown: #f4a261ff;
+  --burnt-sienna: #e76f51ff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--charcoal);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.row{
+  width: 50%;
+}
+
+.heading {
+  font-size: 36px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.create-task-heading {
+  font-size: 24px;
+  margin: 0;
+}
+
+.create-task-heading-subpart {
+  color: var(--saffron);
+}
+
+.todo-user-input {
+  width: 87%;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2%;
+  font-size: 16px;
+  outline: none; 
+}
+
+.todo-user-input::placeholder {
+  color: var(--sandy-brown);
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: var(--persian-green);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #249c56ff; /* Darker shade on hover */
+}
+
+.todo-items-heading {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.todo-items-heading-subpart {
+  color: var(--burnt-sienna);
+}
+
+.todo-items-container {
+  list-style-type: none;
+  padding: 0;
+  max-width: 570px;
+  margin: 0 0; 
+  background-color: #333333;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Add shadow */
+}
+
+.todo-item-container {
+  display: grid;
+  grid-template-columns: 30px 450px 30px; /* Use 1fr to fill remaining space */
+  gap: 1rem;
+  border-bottom: 2px solid var(--burnt-sienna);
+  align-items: center;
+  padding: 10px;
+}
+
+.checkbox-input {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+}
+
+.checkbox-label {
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+  padding-top: 3%;
+  word-wrap: normal;
+  padding-bottom: 0;
+  color: white;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.delete-icon-container {
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 20px;
+  font-size: 1.3rem;
+  padding-top: 0;
+}
+
+.delete-icon {
+  color: var(--sandy-brown);
+  align-items: center;
+  height: 20px;
+}
+
+.delete-icon:hover {
+  color: var(--burnt-sienna);
+}
